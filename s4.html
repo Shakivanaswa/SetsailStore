@@ -1,0 +1,119 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Setsail Store</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+      
+
+        <link rel="stylesheet" href="index1.css">
+      <!-------------------------Font Awesome Icons --------------->  
+        <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+  <!----------x---------------Font Awesome Icons --------x------->
+
+  <!----------x---------------Google font --------x------->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+       <!----------x---------------Google font --------x----------------->
+ 
+    </head>
+<body>
+    <section id="header">
+        <a href="index1.html"><img src="setsail logo.png" width="200" height="75" class="logo"></a>
+          <div>
+              <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href=#product1>Product</a></li>
+                <li><a href=#newsletter>Contact</a></li>
+                <li><a href="#" id="close"><i class="far fa-times"></i></a></li>
+              </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+      </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="sm.png" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="sm.png" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="sm - Copy.png" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="size hoodie.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+    <div class="single-pro-details">
+        <h4>Hoodie Maroon PresUniv</h4>
+        <h2>270.000</h2>
+        <a href="https://whatsform.com/m3hj82"><i class="fal fa-shopping-cart cart"></i></a>
+        <h4> details product</h4>
+        <span>sjfoajgdkgj</span>
+    </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">    
+        <div class="col">
+            <a img class="logo" src="setsail logo.png"  width="200" height="75"></a>
+            <h4>Contact</h4>
+            <p><strong>Address:<strong>Jababeka Education Park, Jl. Ki Hajar Dewantara, RT.2/RW.4, </p>
+            <p>Mekarmukti, Cikarang Utara, Bekasi Regency,West Java 17530</p>
+            <p><strong>Phone:</strong>081998285079</p>
+            <p><strong>gmail:</strong>ardhya.regita@president.ac.id</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.instagram.com/setsail.bizaccel/"><i class="fab fa-instagram"></i></a>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </div>
+        </div>
+        
+      <div class="coypright">
+        <p> © 2023 All rights reserved! made by Setsail </p>
+      </div>
+        
+      </section>
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
